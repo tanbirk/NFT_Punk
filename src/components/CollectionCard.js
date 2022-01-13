@@ -5,7 +5,7 @@ import weth from '../assets/assets/weth.png'
 
 const CollectionCard = ({id, name, traits, image}) => {
     return (
-        <div className='collectionCard'>
+            <div className='collectionCard'>
              <img src={image} alt="" />
              <div className='details'>
              <div className='name'>
